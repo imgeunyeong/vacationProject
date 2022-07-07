@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup</class>
+ <widget class="QDialog" name="signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="ID_label">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>61</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PW_label">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>115</y>
+     <width>24</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PW</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PW_input">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>138</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Name_label">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>169</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Name_input">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>192</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ID_check_btn">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>81</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>중복확인</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Out_btn">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>250</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>나가기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Signup_btn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>250</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>회원가입</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ID_input">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>84</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
